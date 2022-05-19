@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Scontainer {
+    width: 100%;
+    height: 100%;
+    background: url(../public/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Snavbar {
+    height: 10%;
+	background-color: #3D405B;
+    color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+h6 {
+    color: white;
+}
+
+.Sheader {
+    width: 20%;
+}
+
+.Sspace {
+    width: 30%;
+    text-align: end;
+}
+
+.Snavlinks {
+    width: 25%;
+}
+
+.line {
+    width: 1px;
+    height: 4vh;
+    border-left: 1px solid rgb(0, 0, 0, 0.7); 
+}
+
+.Sprofile {
+    display: flex;
+    align-items: center;
+    cursor: default;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    padding:0 20px;
+    border-radius: 20px;
+}
+
+.Sprofile img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+}
+
+.ShomeBox {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.left1 {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left1 h2{
+    margin-bottom: 10px;
+}
+
+.right1 {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacherExam {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    overflow: auto;
+    align-items: center;
+    background: #F5F5F5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.examBox {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.examBox1 {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
+    border-left: 10px solid green;
+    margin-bottom: 30px;
+}
+
+.examBox2 {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
+    border-left: 10px solid rgb(243, 182, 67);
+    margin-bottom: 30px;
+}
+
+.examBox3 {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
+    border-left: 10px solid red;
+    margin-bottom: 30px;
+}
+
+.examBox button {
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.examBox1 button {
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.examBox2 button {
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.examBox3 button {
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.box1 button {
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    border-radius: 5px;
+    margin:0px 10px;
+}
+
+.str-button {
+    background: rgb(0, 128, 0, 0.7);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.nstr-button {
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.delete {
+    background: rgb(255, 0, 0, 0.7);
+    color: white;
+}
+
+.createExam {
+    min-width: 80%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createQues {
+    min-width: 80%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createExam h2 {
+    margin: 20px;
+}
+
+.createQues h2 {
+    margin: 20px;
+}
+
+.createExam form {
+    text-align: center;
+    padding: 20px;
+}
+
+.createQues form {
+    text-align: center;
+    padding: 20px;
+}
+
+.createExam form button {
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.createExam form button:hover {
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-top: 22px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.createExam label {
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.createQues form button {
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.createQues form button:hover {
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-top: 22px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.createQues label {
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.createExam input {
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin: 20px 5px;
+}
+
+.createQues textarea {
+    border: 0;
+    outline: 0;
+    padding: 0 5px;
+    width: 300px;
+    max-width: 300px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin: 20px 5px;
+}
+
+
+#duration {
+    margin: 10px;
+}
+
+.examBox .update {
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+.date {
+    color: rgb(181, 1, 1);
+}
+
+.duration {
+    color: rgb(0, 141, 0);
+}
+
+.box1 {
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+    background: rgb(230, 230, 230);
+    border-radius: 15px;
+}
+
+.question {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.answer {
+    display: flex;
+    justify-content: end;
+}
+
+.option {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.correct {
+    background: linear-gradient(lightgreen, rgb(110, 234, 110));
+}
+
+.button1 {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button2 {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.startexam {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button1:hover {
+    background: green;
+    transition: all 0.3s ease-out;
+}
+
+.bright {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (max-width:960px) {
+    .Sspace {
+        width: 0%;
+    }
+}

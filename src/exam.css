@@ -1,0 +1,141 @@
+.examboard {
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 85%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    overflow: auto;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: white;
+}
+
+/* .examboard img {
+    width: 15%;
+    height: 20%;
+} */
+
+.ShomeBox1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 80%;
+}
+
+.ShomeBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.message {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px 30px;
+    background: whitesmoke;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons .butt {
+    background: linear-gradient(lightgreen, rgb(114, 241, 114));
+    outline: none;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.quesBox {
+    border: 1px dashed rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.quesBox h2 {
+    margin-bottom: 20px;
+}
+
+.quesName {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.options {
+    margin:  10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.options label {
+    margin-left: 10px;
+}
+
+.options .option {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+.submit {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+
+.timer {
+    height: 20%;
+}
+
+#duration {
+    width: 100px;
+}
+
+.noClick {
+    outline: none;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgb(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.selected {
+    transition: all 0.3s ease;
+    background: rgb(255, 165, 0, 0.5);
+}
+
+.box3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.box3 div{
+    width: 20%;
+    text-align: center;
+}
